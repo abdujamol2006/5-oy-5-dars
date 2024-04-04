@@ -11,6 +11,4 @@ button.addEventListener("click", function () {
   btn.style.backgroundImage = ` linear-gradient(127deg, ${RandomColor()}, ${RandomColor()} 70.71%)`;
 
   text.style.color = RandomColor();
-  btn.style.borderImage = `linear-gradient(${RandomColor()},${RandomColor()})`;
-  btn.style.borderRadius = `10px`;
 });
