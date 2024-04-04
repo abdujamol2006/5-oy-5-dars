@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.btn {
+  width: 250px;
+  height: 60px;
+  border-radius: 15px;
+  border: 8px solid greenyellow;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.btn:hover {
+  width: 300px;
+  height: 70px;
+  border: 10px solid greenyellow;
+  font-size: 25px;
+}
